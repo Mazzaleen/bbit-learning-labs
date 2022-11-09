@@ -26,7 +26,7 @@ from generators.positionDataGenerator import positionUpdates
 def test_positionManagerInits():
     #GIVEN
     EXPECTED_NAME = "DSAQ US Equity"
-    EXPECTED_POSITION = 1000
+    EXPECTED_POSITION = 000
     INPUT_SEC = security(EXPECTED_NAME)
 
     #WHEN
